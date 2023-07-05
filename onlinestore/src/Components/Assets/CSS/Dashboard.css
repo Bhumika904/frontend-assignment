@@ -1,0 +1,27 @@
+.shops{
+    display: flex;
+}
+.shopRight{
+    margin-left:2%;
+    width:80%;
+}
+.shopRight label{
+    display: block;
+    color:brown;
+    text-align: center;
+    font-size: x-large;
+}
+.Featureditems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width:70%;
+}
+.eachItems{
+    margin-top: 2%;
+    width:200px;
+    height:200px;
+    padding:30px 30px 10px 30px;
+    border:1px solid black;
+}
