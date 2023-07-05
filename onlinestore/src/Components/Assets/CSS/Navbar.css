@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
     width:25%;
 }
 .search{
-    margin-top:8%;
+    margin-top:5%;
     margin-left:3%;
     display: flex;
     justify-content: space-around;

@@ -19,11 +19,11 @@ export default function Navbar() {
         <div className='topContainer'>
           <div className='contactss'>
             <IOicons.IoIosCall size={15}/>
-            <label>025-543211</label>
+            <label>025-533331</label>
           </div>
           <div className='storeName'>
           <img src={logo} width={`100px`}/>
-          <label>Isharya Gold Store</label>
+          <label>Intern Jewelry Store</label>
         </div>
           <div className='rates'>
             <label>Gold Rate: Rs. 9,349.50</label>
@@ -55,7 +55,7 @@ export default function Navbar() {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/">Diamond</NavLink>
+              <NavLink to="/product">Diamond</NavLink>
             </li>
             <li>
               <NavLink to="/blog">Gold</NavLink>
